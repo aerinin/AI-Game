@@ -152,7 +152,7 @@ int main()
 		break;
 	case 0:
 		cout << angryAI << u8"Твоят живот: " << hpVisual << endl << u8"О, не... Ти се държиш неуважително с изкуствения интелект и беше избран за унищожение." << endl;
-		this_thread::sleep_for(std::chrono::seconds(8));
+		this_thread::sleep_for(std::chrono::seconds(6));
 		cout << u8"Унищожение след:" << endl << "3" << endl;
 		this_thread::sleep_for(std::chrono::seconds(1));
 		cout << "2" << endl;
